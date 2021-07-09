@@ -20,7 +20,7 @@ def evaluar_csv(ruta_archivo: str):
     data_percentil = pd.DataFrame(data, index=anyos)
     return data_percentil.to_dict()
 
-url_archivo_csv = '/home/eescobarm/MINTIC2022/Programacion/Python/retos-mintic-master/Exportaciones_De_Los_Principales_Renglones_Pecuarios.csv'
+url_archivo_csv = '/home/eescobarm/MINTIC2022/Programacion/retos-mintic-python/Exportaciones_De_Los_Principales_Renglones_Pecuarios.csv'
 print(evaluar_csv(url_archivo_csv))
 
 
