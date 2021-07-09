@@ -26,6 +26,7 @@ print(evaluar_csv(url_archivo_csv))
 
 #python3 -m pip install -U pip
 #python3 -m pip install -U matplotlib
+#python3 -m pip install -U pandas
 
 
 #{'Perceltiles 25 de Exportaciones': {'2012': 5262.5, '2013': 19382.5, '2014': 5257.0, '2015': 6345.5, '2016': 7251.0, '2017': 9519.0, '2018': 13420.5}, 'Perceltiles 75 de Exportaciones': {'2012': 295713.0, '2013': 155312.0, '2014': 43200.0, '2015': 85478.0, '2016': 87230.0, '2017': 83343.0, '2018': 61325.0}}
